@@ -15,6 +15,7 @@ function mostrarMenuMobile() {
 function removendoMenuMobile() {
     const menuMobile = document.querySelector('.menu-mobile-active');
 
-    if (menuMobile.classList.value == 'menu-mobile.active');
-    menuMobile.classList.value = 'menu-mobile';
+    if (menuMobile.classList.value === 'menu-mobile-active') {
+        menuMobile.classList.value = 'menu-mobile';
+    }
 }
